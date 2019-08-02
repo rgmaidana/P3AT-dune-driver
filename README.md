@@ -21,7 +21,7 @@ git clone https://github.com/rgmaidana/P3AT-dune-driver $HOME/P3AT-dune-driver
 mkdir -p $HOME/dune/build
 ```
 
-* Clone the (DUNE framework repository)[https://github.com/LSTS/dune], with the "dune" name, into the "dune" directory
+* Clone the [DUNE framework repository](https://github.com/LSTS/dune), with the "dune" name, into the "dune" directory
 
 ```
 git clone https://github.com/LSTS/dune $HOME/dune/dune
