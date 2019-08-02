@@ -68,7 +68,7 @@ As DUNE is a large project, it is wise to cross-compile the framework to be used
 cmake -DCROSS=$HOME/beaglebone/glued/lctr-b2xx/toolchain/bin/armv7-lsts-linux-gnueabi- ../dune/
 ```
 
-If using GLUED, you can build the project as a monolithic package (with static libraries), using the "package" option in make:
+You can also build the project as a monolithic package (with static libraries, to be used in GLUED for example), using the "package" option when running make:
 
 ```
 make package
