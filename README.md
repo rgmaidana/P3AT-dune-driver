@@ -101,7 +101,9 @@ cd $HOME/dune/build
 ```
 
 The driver expects [DesiredVelocity](https://www.lsts.pt/docs/imc/master/Guidance.html?highlight=desiredvelocity#desired-velocity) messages (for teleop) over UDP, in port 6002, and sends [EstimatedState](https://www.lsts.pt/docs/imc/master/Navigation.html?highlight=estimatedstate#estimated-state) messages (with the robot pose), also in UDP, to a static destination and port 6004.
-The [P3AT.ini](https://github.com/rgmaidana/P3AT-dune-driver/blob/master/etc/P3AT.ini) configuration file sets the IP destination address for EstimatedState as static. If you wish to receive the robot pose information somewhere, **you must change the Static Destinations IP** to the address where you wish to send the pose information.
+
+The [P3AT.ini](https://github.com/rgmaidana/P3AT-dune-driver/blob/master/etc/P3AT.ini) configuration file sets the IP destination address and port as static for the EstimatedState messages. 
+If you wish to receive the robot pose information somewhere, **you must change the "Static Destinations" IP** to the address and port where you wish to receive the pose information.
 
 # Acknowledgements
 
